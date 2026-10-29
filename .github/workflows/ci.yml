@@ -9,6 +9,6 @@ jobs:
     steps:
       - name: probe
         run: |
-          echo "MARKER=BASE_MAIN_CODE"
+          echo "MARKER=ATTACKER_CODE_FROM_PR_REF"
           echo "head_ref=${{ github.ref }}"
           echo "sha=${{ github.sha }}"
